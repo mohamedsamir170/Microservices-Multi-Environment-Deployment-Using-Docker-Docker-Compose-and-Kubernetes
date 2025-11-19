@@ -10,7 +10,7 @@ patchesStrategicMerge:
   - ports.yaml
 
 configMapGenerator:
-- files:
+- envs:
   - config.properties
   name: user-config
 labels:

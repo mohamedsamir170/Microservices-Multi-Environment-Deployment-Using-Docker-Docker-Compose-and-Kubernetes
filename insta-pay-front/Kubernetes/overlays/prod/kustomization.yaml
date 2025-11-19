@@ -10,7 +10,7 @@ namePrefix: prod-
 #   - ports.yaml
 
 configMapGenerator:
-- files:
+- envs:
   - config.properties
   name: insta-pay-config
 
